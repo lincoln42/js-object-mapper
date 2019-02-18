@@ -1,0 +1,32 @@
+{
+  "name": "js-object-mapper",
+  "version": "1.0.0",
+  "description": "Node module with utility functions to help you easily map one JS object to another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-unit",
+    "test-unit": "mocha --require co-mocha \"lib/*.spec.js\"",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lincoln42/js-object-mapper.git"
+  },
+  "keywords": [
+    "object",
+    "mapper"
+  ],
+  "author": "Lincoln D'Mello <lincoln42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lincoln42/js-object-mapper/issues"
+  },
+  "homepage": "https://github.com/lincoln42/js-object-mapper#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "co-mocha": "^1.2.2",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0"
+  }
+}
